@@ -18,5 +18,7 @@ public class Excercise7 {
 
         System.out.println(("\nArea      : " + df2.format(area)));
         System.out.println("Perimeter : " + df2.format(perimeter));
+
+        input.close();
     }
 }

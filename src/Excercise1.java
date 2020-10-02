@@ -15,5 +15,7 @@ public class Excercise1 {
 
         DecimalFormat df = new DecimalFormat("0.00");
         System.out.println("\nWind chill  : " + df.format(wChill));
+
+        input.close();
     }
 }

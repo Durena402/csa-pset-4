@@ -17,5 +17,7 @@ public class Excercise9 {
         last = last.toUpperCase();
 
         System.out.println("\n" + first.substring(0 , 1) + middle.substring(0 ,1) + last.substring(0 , 1) + ".");
+
+        input.close();
     }
 }

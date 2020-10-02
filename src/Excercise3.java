@@ -24,5 +24,7 @@ public class Excercise3 {
         df2.setGroupingSize(3);
 
         System.out.println("\nSurface area : " + df2.format(finalArea));
+
+        input.close();
     }
 }

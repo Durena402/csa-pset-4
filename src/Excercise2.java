@@ -18,5 +18,7 @@ public class Excercise2 {
         System.out.println("\nMiles  : " + miles);
         System.out.println("Feet   : " + feet);
         System.out.println("Inches : " + inches);
+
+        input.close();
     }
 }

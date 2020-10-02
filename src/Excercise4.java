@@ -18,5 +18,7 @@ public class Excercise4 {
         System.out.println("\nKilometers  : "+ kilo);
         System.out.println("Meters      : " + meters);
         System.out.println("Centimeters : " + centimeters);
+
+        input.close();
     }
 }

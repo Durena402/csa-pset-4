@@ -11,5 +11,7 @@ public class Excercise8 {
         text = text.toUpperCase();
 
         System.out.print("\n" + text.substring(text.length() / 2) + text.substring(0 , text.length() / 2 ) + ".");
+
+        input.close();
     }
 }

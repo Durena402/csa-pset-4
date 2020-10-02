@@ -14,5 +14,6 @@ public class Excercise10 {
         city = city.toLowerCase();
         System.out.println("Lower  : " + city);
 
+        input.close();
     }
 }

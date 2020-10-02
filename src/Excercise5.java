@@ -19,5 +19,7 @@ public class Excercise5 {
 
         System.out.println("\nArea          : " + df2.format(area));
         System.out.println("Circumference : "+df2.format(circum));
+
+        input.close();
     }
 }
